@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     line += `${place}. ${katzDeliLine[i]}, `;
     i++;
   if (i === katzDeliLine.length) {
-    line += `{katzDeliLine.length}. ${katzDeliLine[i]}. `;
+    line += `{katzDeliLine.length}. ${katzDeliLine[i]}`;
   }
   }
   return line;
