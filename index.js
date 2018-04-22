@@ -18,7 +18,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty.";
   }
   var i = 0;
-  var line = "The line is currently ";
+  var line = "The line is currently: ";
   while (i < katzDeliLine.length) {
     var place = i + 1;
     line += `${place}. ${katzDeliLine[i]}, `;
