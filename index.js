@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
   while (i < katzDeliLine.length) {
     line += `${place}. ${katzDeliLine[i]}.`;
     i++;
-    return line;
   }
+  return line;
 }
