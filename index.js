@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
   }
   var i = 0;
   var line = "The line is currently ";
-  while (i < katzDeliLine.length) {
+  while (i < katzDeliLine.length - 1) {
     var place = i + 1;
     line += `${place}. ${katzDeliLine[i]}, `;
     i++;
