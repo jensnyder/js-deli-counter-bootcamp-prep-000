@@ -24,5 +24,5 @@ function currentLine(katzDeliLine) {
     line += `${place}. ${katzDeliLine[i]}, `;
     i++;
   }
-  return line.slice(0, -1);
+  return line.slice(0, -2);
 }
